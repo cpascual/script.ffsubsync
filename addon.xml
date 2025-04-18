@@ -1,0 +1,9 @@
+<addon id="script.ffsubsync" version="1.0.0" name="Auto-sync subtitle" provider-name="cpascual">
+    <extension point="xbmc.python.script" library="main.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Auto-synchronizes subtitles with ffsubsync</summary>
+        <description>Offers to synchronize an external subtitle file with the current video.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+

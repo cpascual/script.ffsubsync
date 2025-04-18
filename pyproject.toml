@@ -1,0 +1,11 @@
+[project]
+name = "kodi-script-ffsubsync"
+version = "0.1.0"
+description = "KODI addon for ffsubsync"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[dependency-groups]
+dev = [
+    "kodistubs>=21.0.0",
+]
